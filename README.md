@@ -7,3 +7,10 @@ RaspBoot uses curl command and PushBullet to send boot info to your phone when t
 * Create an account at [PushBullet](https://www.pushbullet.com/)
 * Go to your settings then click on "Create Access Token" button
 * Put your token in the a_1 variable
+
+```Python
+
+a_1 = "curl -u [Your_PushBullet_Token_Here]: https://api.pushbullet.com/v2/pushes -d type=note -d title='Raspberry Pi' -d body='"
+
+```
+

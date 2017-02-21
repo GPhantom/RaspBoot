@@ -62,7 +62,7 @@ subprocess.call(msg_3 , shell=True)
 
 def monitor():
   while 1:
-    #checking the system every 15 min
+    # Checking the system every 15 min
     time.sleep(900)
     
     msg_m = a_1 + "Checking the System..." + "'"
